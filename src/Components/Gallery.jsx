@@ -21,22 +21,23 @@ const Gallery = () => {
             </p>
 
             {/* Image Gallery */}
-            <div className="px-8 sm:px-16 lg:px-32">
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {locationsData.map((location) => (
-        <div key={location.id} className="relative flex justify-center items-center">
-          {/* Image */}
-          <img
-            src={location.image} // Accessing the image from the JSON data
-            alt={location.place}
-            className="w-full h-80 sm:h-96 lg:h-[400px] object-contain rounded-lg"
-          />
-          {/* Optional: Display the place name */}
-          
-        </div>
-      ))}
-    </div>
+            <div className="px-8 sm:px-16 lg:px-32 flex justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {locationsData.map((location) => (
+      <div key={location.id} className="flex flex-col items-center justify-center">
+        {/* Image */}
+        <img
+          src={location.image} // Accessing the image from the JSON data
+          alt={location.place}
+          className="w-full max-w-sm h-80 sm:h-96 lg:h-[400px] object-contain rounded-lg"
+        />
+        {/* Optional: Place Name */}
+        <div className="text-center mt-4 font-semibold">{location.place}</div>
+      </div>
+    ))}
   </div>
+</div>
+
         </div>
     )
 }

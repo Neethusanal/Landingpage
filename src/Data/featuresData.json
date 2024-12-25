@@ -8,17 +8,17 @@
     {
       "title": "24/7 Support",
       "description": "Dedicated assistance for a worry-free stay.",
-      "image": "/path-to-icon/support.png"
+      "image": "/images/headset.png"
     },
     {
       "title": "Trusted by Guests",
       "description": "Trusted by satisfied guests for exceptional experiences.",
-      "image": "/path-to-icon/trusted-by-guests.png"
+      "image": "/images/Frame.png"
     },
     {
       "title": "Easy Booking",
       "description": "Enjoy seamless bookings with clear, upfront pricing.",
-      "image": "/path-to-icon/easy-booking.png"
+      "image": "/images/Frame-1.png"
     }
   ]
 
