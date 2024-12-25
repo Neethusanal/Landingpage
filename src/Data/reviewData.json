@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Thomas Gala",
+      "place": "Bengaluru, India",
+      "description": "Znorm Homes made my business trip stress-free.The seasmless booking process and cozy accomodation felt like a home away frm home.i'll defenitely use them for future Travels.",
+      "image": "/images/Thomas.png",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Mark Ramirez",
+      "place": "Bengaluru, India",
+      "description": "I was blown away by the transparency and quality of Znorm Homes.The pictures matched perfectly and the customer service was outstanding.Highly recommend for both short and long stays.",
+      "image": "/images/Mark.png",
+      "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Anjali M",
+        "place": "Kochi, India",
+        "description": "We had an amazing family vacation Thanks to Znorm Homes.The space was spotless beautifully designed, and in the perfect location. Everything was so easy from the start to finish!",
+        "image": "/images/Anjali.png",
+        "rating": 4
+      }
+  ]
+  
