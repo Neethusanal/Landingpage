@@ -7,9 +7,9 @@ const Search = () => {
   checkInDefault.setDate(today.getDate() + 1); // Tomorrow
   checkOutDefault.setDate(today.getDate() + 10); // 10 days from today
 
-  const [location, setLocation] = useState("Bommanahalli, Bengaluru");
-  const [checkInDate, setCheckInDate] = useState("Dec 01");
-  const [checkOutDate, setCheckOutDate] = useState("Dec 10");
+//   const [location, setLocation] = useState("Bommanahalli, Bengaluru");
+//   const [checkInDate, setCheckInDate] = useState("Dec 01");
+//   const [checkOutDate, setCheckOutDate] = useState("Dec 10");
   return (
     <div className="bg-white shadow-md rounded-full py-2 px-4 flex items-center gap-2 max-w-4xl mx-auto relative">
     {/* Location */}
@@ -46,7 +46,7 @@ const Search = () => {
     </div>
   
     {/* Search Button */}
-    <button className="bg-blue-600 text-white rounded-full p-3 flex items-center justify-center absolute right-2">
+    <button className="bg-black text-white rounded-full p-3 flex items-center justify-center absolute right-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

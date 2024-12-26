@@ -10,32 +10,33 @@ const Gallery = () => {
       </h1>
 
       {/* Subheading */}
-      <h2 className="text-lg sm:text-xl text-center text-gray-700 mb-4">
-        Discover Stunning Locations
+      <h2 className="text-lg sm:text-xl text-center  text-black font-semibold mb-4">
+      Discover the Beauty of our spaces
       </h2>
 
       {/* Paragraph */}
-      <p className="text-center text-base sm:text-lg mb-2">
-        Explore the beauty and uniqueness of every space.
+      <p className="text-center text-sm sm:text-lg mb-2">
+      Explore Znorm homes through our gallery,showcasing cozy interiors,stylish designs and
       </p>
-      <p className="text-center text-base sm:text-lg mb-8">
-        Find your special place among these remarkable destinations.
+      <p className="text-center text-sm sm:text-lg mb-8">
+      views.Each space is crafted to make your stay truly special
       </p>
 
       {/* Centered Image Gallery */}
-      <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex justify-center ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-screen-md mx-auto justify-items-center">
+
           {locationsData.map((location) => (
             <div
               key={location.id}
-              className="flex flex-col items-center"
+              className="flex flex-col items-center justify-center "
             >
               {/* Image */}
               <img
-                src={location.image} // Accessing the image from the JSON data
-                alt={location.place}
-                className="w-full max-w-xs sm:max-w-sm lg:max-w-md h-60 sm:h-72 lg:h-80 object-cover rounded-lg"
-              />
+  src={location.image} // Accessing the image from the JSON data
+  alt={location.place}
+  className="w-full max-w-lg sm:max-w-xl lg:max-w-2xl h-auto object-cover rounded-lg"
+/>
               {/* Place Name */}
               <div className="text-center mt-4 font-semibold text-sm sm:text-base">
                 {location.place}
