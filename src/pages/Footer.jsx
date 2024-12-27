@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
 
         {/* Column 2: Company Links */}
-        <div className="ml-4 sm:ml-6 lg:ml-8">
+        <div className=" sm:ml-6 lg:ml-8">
   <h4 className="text-lg text-black font-semibold mb-4">Company</h4>
   <ul className="space-y-2">
     <li>
