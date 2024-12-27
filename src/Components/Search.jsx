@@ -16,7 +16,7 @@ const Search = () => {
     <div className="flex flex-col w-1/3">
       <label className="text-sm text-gray-500">Location</label>
       <div className="flex items-center justify-between">
-        <span className="text-gray-700">Bommanahalli, Bengaluru</span>
+        <span className="text-gray-700">Bommanahalli</span>
         <button onClick={() => alert("Select a location")} className="text-gray-400">
           ▼
         </button>

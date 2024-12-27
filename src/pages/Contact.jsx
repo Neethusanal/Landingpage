@@ -42,7 +42,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Last Name"
-                className="w-full p-3 border border-gray-300 rounded-lg"
+                className="w-full p-3 border  border-gray-300 rounded-lg"
               />
             </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="How Did You Hear About Us?"
-                className="w-full p-3 border border-gray-300 rounded-md h-14"
+                className="w-full p-3 border border-gray-300 rounded-md h-20"
               />
             </div>
 

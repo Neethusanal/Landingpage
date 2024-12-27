@@ -18,17 +18,17 @@ const Footer = () => {
   <h4 className="text-lg text-black font-semibold mb-4">Company</h4>
   <ul className="space-y-2">
     <li>
-      <a href="/about" className="text-gray-400 hover:text-white">
+      <a href="/about" className="text-gray-400 hover:text-black">
         About
       </a>
     </li>
     <li>
-      <a href="/services" className="text-gray-400 hover:text-white">
-        Services
+      <a href="/gallery" className="text-gray-400 hover:text-black">
+        Gallery
       </a>
     </li>
     <li>
-      <a href="/blog" className="text-gray-400 hover:text-white">
+      <a href="/blog" className="text-gray-400 hover:text-black">
         Blog
       </a>
     </li>
@@ -40,17 +40,17 @@ const Footer = () => {
           <h4 className="text-lg text-black font-semibold mb-4">Information</h4>
           <ul className="space-y-2">
             <li>
-              <a href="/faq" className="text-gray-400 hover:text-white">
+              <a href="/faq" className="text-gray-400 hover:text-black">
                 FAQ
               </a>
             </li>
             <li>
-              <a href="/data-rights" className="text-gray-400 hover:text-white">
+              <a href="/data-rights" className="text-gray-400 hover:text-black">
                 Data Rights
               </a>
             </li>
             <li>
-              <a href="/terms" className="text-gray-400 hover:text-white">
+              <a href="/terms" className="text-gray-400 hover:text-black">
                 Terms & Conditions
               </a>
             </li>
