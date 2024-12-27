@@ -39,8 +39,10 @@ const About = () => {
           <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
             We blend the warmth of home with cutting-edge technology. Our platform
             simplifies your search for the perfect stay, prioritizing transparency and
-            reliability.
-          </p>
+            reliability,and a seamless booking experience so you can focus on creating cherished memmories
+                                                                                            
+            Wheather exploring a bustling city or seeking a tranquil escape,Znorm is your trusted partner in 
+            finding accoodations that fel like home.</p>
         </div>
       </div>
     </div>
